@@ -1,4 +1,4 @@
-export function Discord(props) {
+export function Discord(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg aria-hidden="false" viewBox="0 0 28 20" {...props}>
       <path
@@ -9,7 +9,7 @@ export function Discord(props) {
   );
 }
 
-export function Add(props) {
+export function Add(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ export function Add(props) {
   );
 }
 
-export function Explore(props) {
+export function Explore(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export function Explore(props) {
   );
 }
 
-export function Verified(props) {
+export function Verified(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       aria-label="Verified"
@@ -61,7 +61,7 @@ export function Verified(props) {
   );
 }
 
-export function Check(props) {
+export function Check(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg aria-hidden="false" viewBox="0 0 16 15.2" {...props}>
       <path
@@ -72,7 +72,7 @@ export function Check(props) {
   );
 }
 
-export function Chevron(props) {
+export function Chevron(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 18 18" fill="none" {...props}>
       <path
@@ -83,7 +83,7 @@ export function Chevron(props) {
   );
 }
 
-export function Book(props) {
+export function Book(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <path
@@ -96,7 +96,7 @@ export function Book(props) {
   );
 }
 
-export function Speakerphone(props) {
+export function Speakerphone(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <path
@@ -113,7 +113,7 @@ export function Speakerphone(props) {
   );
 }
 
-export function Arrow(props) {
+export function Arrow(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <path
@@ -126,7 +126,7 @@ export function Arrow(props) {
   );
 }
 
-export function AddPerson(props) {
+export function AddPerson(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <path
@@ -141,7 +141,7 @@ export function AddPerson(props) {
   );
 }
 
-export function Hashtag(props) {
+export function Hashtag(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <path
@@ -154,7 +154,7 @@ export function Hashtag(props) {
   );
 }
 
-export function Browse(props) {
+export function Browse(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +177,7 @@ export function Browse(props) {
   );
 }
 
-export function Chat(props) {
+export function Chat(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ export function Chat(props) {
   );
 }
 
-export function Threads(props) {
+export function Threads(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg aria-hidden="false" viewBox="0 0 24 24" fill="none" {...props}>
       <path
@@ -209,7 +209,7 @@ export function Threads(props) {
   );
 }
 
-export function Bell(props) {
+export function Bell(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" {...props}>
       <path
@@ -220,7 +220,7 @@ export function Bell(props) {
   );
 }
 
-export function Pin(props) {
+export function Pin(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <path
@@ -231,7 +231,7 @@ export function Pin(props) {
   );
 }
 
-export function People(props) {
+export function People(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <path
@@ -242,7 +242,7 @@ export function People(props) {
   );
 }
 
-export function Inbox(props) {
+export function Inbox(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" {...props}>
       <path
@@ -255,7 +255,7 @@ export function Inbox(props) {
   );
 }
 
-export function QuestionCircle(props) {
+export function QuestionCircle(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <circle cx={12} cy={12} r={10} fill="transparent" />
@@ -269,7 +269,7 @@ export function QuestionCircle(props) {
   );
 }
 
-export function Hourglass(props) {
+export function Hourglass(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" {...props}>
       <path
